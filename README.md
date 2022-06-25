@@ -36,3 +36,19 @@ switch city {
     //Default way of handling
 }
 ```
+
+#### maps
+
+```
+//creating empty map
+var userData = make(map[string]string)
+//adding a key-value pair
+userData["u00001"] = "John Doe john.doe@outlook.com 25"
+userData["u00002"] = strconv.FormatUint(uint64(7), 10) //convertig uint to string
+
+//slice of maps
+var mapSlice = make([]map[string]unit, 0) //0 is initial size
+
+mapSlice = append(mapSlice, userData)
+
+```
