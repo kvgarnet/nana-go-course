@@ -3,6 +3,13 @@ https://www.youtube.com/watch?v=yyUHQIec83I
 
 ## Notes
 
+#### variable declaration
+
+```
+var aInt int
+aString := "string"
+var aBool = false
+```
 #### Switch statemt
 ```
 city := "Hyderabad"
