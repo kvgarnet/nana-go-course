@@ -10,6 +10,17 @@ var aInt int
 aString := "string"
 var aBool = false
 ```
+
+#### Package level variables
+
+Can only be declared or defind with var syntax
+
+```
+var conferenceRoom = "Golang conference"
+var remainingTickets uint = 50
+var bookings = []string{}
+const conferenceTicket uint = 50
+```
 #### Switch statemt
 ```
 city := "Hyderabad"
